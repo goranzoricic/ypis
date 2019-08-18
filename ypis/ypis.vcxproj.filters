@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{a8a2e72a-3555-4017-be47-421a2836a4ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ships">
+      <UniqueIdentifier>{aa629814-d9b7-496a-a4e0-b39024d88869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stations">
+      <UniqueIdentifier>{f05e6b62-ee44-424b-9155-b68b04d6393b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{0e01052a-54d3-4f91-a026-d3194abe54eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Asteroids">
+      <UniqueIdentifier>{2b8bdf88-8983-4be5-9e46-da7f982b2bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{3205ad00-8727-4cb2-92cd-2b6a55ded57f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="ypis.cpp" />
+    <ClCompile Include="Resources\OreType.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Ships\ShipBase.cpp">
+      <Filter>Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="Stations\Station.cpp">
+      <Filter>Stations</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\ObjectBase.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Asteroids\AsteroidBelt.cpp">
+      <Filter>Asteroids</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameMode.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Resources\OreType.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Ships\ShipBase.h">
+      <Filter>Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="Stations\Station.h">
+      <Filter>Stations</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMode.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\ObjectBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Asteroids\AsteroidBelt.h">
+      <Filter>Asteroids</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
